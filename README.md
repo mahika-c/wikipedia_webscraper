@@ -67,9 +67,9 @@ My code accounts for two types of table formats:
        parsing the HTML to standardize the match. We assume there are no spelling typos in the user query. If
        the award name can't be found, "Invalid input" is printed.
 
-- Q6 - Only existent alma mater fields should count for actor/actress education. (See Ed post #339)
-Also, as per Ed post #354, we can assume only current categories are used for input.
-As per Ed post #270, we assume the categories are related to people specifically, like Best Director/Actor/etc.
+- Q6 - Only existent alma mater fields should count for actor/actress education.
+Also, we can assume only current categories are used for input.
+We assume the categories are related to people specifically, like Best Director/Actor/etc.
 If there is a tie, one of the correct answers is printed.
 If the alma mater is not clearly listed under the Education, we skip them.
 I wanted to clearly print each year's winner/nominee names as well as their education/alma mater printed underneath
@@ -78,8 +78,8 @@ so that while the user is waiting for the final calculation, they can see the da
 - Q7 - For inputs, I will accept any award category for which a movie can win, because you can find the country
 associated with a movie on the movie's website.
 When accessing the country fields, I had to deal with different formats, such a singular country and multiple
-listed countries. When there were multiple countries, sometimes they were listed under <li> tags, and sometimes
-they were listed separated by <br>, so I accounted for these cases in my code.
+listed countries. When there were multiple countries, sometimes they were listed under li tags, and sometimes
+they were listed separated by br, so I accounted for these cases in my code.
 
 The method will print nothing under a year when an award category didn't exist in that year. For instance,
 Best Picture or Best Interntl Film didn't exist in certain years. So the tally just simply will skip over the years.
