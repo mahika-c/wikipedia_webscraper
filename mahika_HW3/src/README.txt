@@ -1,6 +1,4 @@
 Mahika Calyanakoti
-PennID: 42090313
-NETS 1500 HW3 - Programming
 Wikipedia and the Oscars - https://en.wikipedia.org/wiki/Academy_Awards
 4/4/2023
 
@@ -18,8 +16,6 @@ user's questions.
 
 I've included the URLGetter and URLTester methods, which show my
 getRedirectedURL() method, but are not used for the programming part.
-
-The pdf in this folder has my theory write
 
 -----------------------------------------------------------------------
 Decisions:
