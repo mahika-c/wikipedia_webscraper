@@ -79,11 +79,7 @@ so that while the user is waiting for the final calculation, they can see the da
 associated with a movie on the movie's website.
 When accessing the country fields, I had to deal with different formats, such a singular country and multiple
 listed countries. When there were multiple countries, sometimes they were listed under li tags, and sometimes
-they were listed separated by br, so I accounted for these cases in my code.
-
-The method will print nothing under a year when an award category didn't exist in that year. For instance,
-Best Picture or Best Interntl Film didn't exist in certain years. So the tally just simply will skip over the years.
-The method prints the info as it fetches it.
+they were listed separated by br, so I accounted for these cases in my code. The method will print nothing under a year when an award category didn't exist in that year. For instance, Best Picture or Best Interntl Film didn't exist in certain years. So the tally just simply will skip over the years. The method prints the info as it fetches it.
 
 - Q8 - I wanted my question to have a statistical meaning, so I wanted to find the average age of the winners
 and nominees in a given category across all years of the Oscars. Assumes input that has to do with a person winning,
